@@ -1,0 +1,145 @@
+body {
+	background-color: red;
+	color: #fff;
+	font-family: Arial, sans-serif;
+	margin: 10px 2%;
+	transition: background-color 1s ease;
+}
+
+a {
+	color: #fff;
+}
+a:hover {
+	color: rgba(255,255,255,0.6);
+}
+
+img {
+	max-width: 100%
+}
+p {
+	font-size: .75em;
+}
+h1 {
+	margin-top: 0;
+	font-size: 1em;
+}
+
+h2 {
+	font-size: .9em;
+	margin-top: 0;
+}
+
+h3 {
+	font-size: .75em;
+	margin-top: 0;
+}
+.wrapper {
+	background-color: rgba(0,0,0,0.3);
+	padding: 10px;
+	border-radius: 10px;
+	margin: 0 auto; 
+}
+
+.navlist {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.navlist li {
+	font-size: .8em;
+}
+.navlist a {
+	display: block;
+	margin-bottom: 10px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.5);
+	padding: 15px 0;
+	border-radius: 10px;
+}
+
+.mainbullets {
+	font-size: .75em;
+}
+.medwrapper {
+	background-color: rgba(0,0,0,0.4);
+	padding: 2%;
+	border-radius: 8px;
+	margin-bottom: 10px;
+}
+
+.footer {
+	font-size: .75em;
+	clear: both;
+}
+.footer p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
+
+
+/* =================== 480px ====================== */
+
+@media screen and (min-width: 480px) {
+
+	body {
+		background-color: #e5af1d;
+	}
+
+}
+
+
+
+
+
+
+
+/* =================== 768px ====================== */
+
+@media screen and (min-width: 768px) {
+
+	body {
+		background-color: #76bd05;
+	}
+
+	.maintext {
+		width: 45%;
+		margin-right: 3%;
+		float: left;
+	}
+	.secondarytext {
+		float: left;
+		width: 45%;
+	}
+}
+
+
+
+
+/* =================== 1024px ====================== */
+
+@media screen and (min-width: 1024px) {
+
+	body {
+		background-color: #3d6cf2;
+	}
+
+	.wrapper {
+		max-width: 960px;
+		margin: 0 auto;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
